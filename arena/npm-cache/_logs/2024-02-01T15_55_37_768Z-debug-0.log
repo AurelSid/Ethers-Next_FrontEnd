@@ -1,0 +1,324 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\roko\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.4.0
+2 info using node@v20.9.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\roko\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\roko\Desktop\Arena\arena\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\roko\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\roko\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 12ms
+17 timing npm:load:configload Completed in 12ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install ethers
+22 verbose argv "install" "--save" "ethers"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:C:\Users\roko\Desktop\Arena\arena\npm-cache\_logs\2024-02-01T15_55_37_768Z-
+26 verbose logfile C:\Users\roko\Desktop\Arena\arena\npm-cache\_logs\2024-02-01T15_55_37_768Z-debug-0.log
+27 timing npm:load:logFile Completed in 11ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 1ms
+30 timing npm:load Completed in 56ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 82ms
+34 timing idealTree:userRequests Completed in 1ms
+35 silly idealTree buildDeps
+36 silly fetch manifest ethers@*
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/ethers 1289ms (cache miss)
+39 silly placeDep ROOT ethers@6.10.0 OK for: arena@0.1.0 want: *
+40 silly fetch manifest @adraffy/ens-normalize@1.10.0
+41 silly fetch manifest @noble/curves@1.2.0
+42 silly fetch manifest @noble/hashes@1.3.2
+43 silly fetch manifest @types/node@18.15.13
+44 silly fetch manifest aes-js@4.0.0-beta.5
+45 http fetch GET 200 https://registry.npmjs.org/aes-js 465ms (cache miss)
+46 silly fetch manifest tslib@2.4.0
+47 http fetch GET 200 https://registry.npmjs.org/tslib 118ms (cache miss)
+48 silly fetch manifest ws@8.5.0
+49 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 927ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/ws 457ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/@noble%2fcurves 1146ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/@adraffy%2fens-normalize 1530ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/@noble%2fhashes 1748ms (cache miss)
+54 timing idealTree:#root Completed in 3057ms
+55 silly fetch manifest bufferutil@^4.0.1
+56 http fetch GET 200 https://registry.npmjs.org/bufferutil 59ms (cache miss)
+57 silly fetch manifest utf-8-validate@^5.0.2
+58 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 81ms (cache miss)
+59 silly placeDep ROOT @adraffy/ens-normalize@1.10.0 OK for: ethers@6.10.0 want: 1.10.0
+60 silly placeDep ROOT @noble/curves@1.2.0 OK for: ethers@6.10.0 want: 1.2.0
+61 silly placeDep ROOT @noble/hashes@1.3.2 OK for: ethers@6.10.0 want: 1.3.2
+62 silly placeDep ROOT @types/node@18.15.13 OK for: ethers@6.10.0 want: 18.15.13
+63 silly placeDep ROOT aes-js@4.0.0-beta.5 OK for: ethers@6.10.0 want: 4.0.0-beta.5
+64 silly placeDep node_modules/ethers tslib@2.4.0 OK for: ethers@6.10.0 want: 2.4.0
+65 silly placeDep ROOT ws@8.5.0 OK for: ethers@6.10.0 want: 8.5.0
+66 timing idealTree:node_modules/ethers Completed in 157ms
+67 timing idealTree:node_modules/@adraffy/ens-normalize Completed in 0ms
+68 timing idealTree:node_modules/@noble/curves Completed in 0ms
+69 timing idealTree:node_modules/@noble/hashes Completed in 0ms
+70 timing idealTree:node_modules/@types/node Completed in 0ms
+71 timing idealTree:node_modules/aes-js Completed in 0ms
+72 timing idealTree:node_modules/ws Completed in 1ms
+73 timing idealTree:node_modules/ethers/node_modules/tslib Completed in 0ms
+74 timing idealTree:buildDeps Completed in 3216ms
+75 timing idealTree:fixDepFlags Completed in 1ms
+76 timing idealTree Completed in 3304ms
+77 timing reify:loadTrees Completed in 3323ms
+78 timing reify:diffTrees Completed in 11ms
+79 silly reify moves {}
+80 timing reify:retireShallow Completed in 1ms
+81 timing reify:createSparse Completed in 6ms
+82 timing reify:loadBundles Completed in 0ms
+83 silly audit bulk request {
+83 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+83 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+83 silly audit   '@jridgewell/gen-mapping': [ '0.3.3' ],
+83 silly audit   '@jridgewell/resolve-uri': [ '3.1.1' ],
+83 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+83 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.15' ],
+83 silly audit   '@jridgewell/trace-mapping': [ '0.3.22' ],
+83 silly audit   '@next/env': [ '14.1.0' ],
+83 silly audit   '@next/swc-darwin-arm64': [ '14.1.0' ],
+83 silly audit   '@next/swc-darwin-x64': [ '14.1.0' ],
+83 silly audit   '@next/swc-linux-arm64-gnu': [ '14.1.0' ],
+83 silly audit   '@next/swc-linux-arm64-musl': [ '14.1.0' ],
+83 silly audit   '@next/swc-linux-x64-gnu': [ '14.1.0' ],
+83 silly audit   '@next/swc-linux-x64-musl': [ '14.1.0' ],
+83 silly audit   '@next/swc-win32-arm64-msvc': [ '14.1.0' ],
+83 silly audit   '@next/swc-win32-ia32-msvc': [ '14.1.0' ],
+83 silly audit   '@next/swc-win32-x64-msvc': [ '14.1.0' ],
+83 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+83 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+83 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+83 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+83 silly audit   '@swc/helpers': [ '0.5.2' ],
+83 silly audit   'ansi-regex': [ '6.0.1', '5.0.1' ],
+83 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+83 silly audit   'any-promise': [ '1.3.0' ],
+83 silly audit   anymatch: [ '3.1.3' ],
+83 silly audit   arg: [ '5.0.2' ],
+83 silly audit   autoprefixer: [ '10.4.17' ],
+83 silly audit   'balanced-match': [ '1.0.2' ],
+83 silly audit   'binary-extensions': [ '2.2.0' ],
+83 silly audit   'brace-expansion': [ '2.0.1' ],
+83 silly audit   braces: [ '3.0.2' ],
+83 silly audit   browserslist: [ '4.22.3' ],
+83 silly audit   busboy: [ '1.6.0' ],
+83 silly audit   'camelcase-css': [ '2.0.1' ],
+83 silly audit   'caniuse-lite': [ '1.0.30001582' ],
+83 silly audit   chokidar: [ '3.5.3' ],
+83 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+83 silly audit   'client-only': [ '0.0.1' ],
+83 silly audit   'color-convert': [ '2.0.1' ],
+83 silly audit   'color-name': [ '1.1.4' ],
+83 silly audit   commander: [ '4.1.1' ],
+83 silly audit   'cross-spawn': [ '7.0.3' ],
+83 silly audit   cssesc: [ '3.0.0' ],
+83 silly audit   didyoumean: [ '1.2.2' ],
+83 silly audit   dlv: [ '1.1.3' ],
+83 silly audit   eastasianwidth: [ '0.2.0' ],
+83 silly audit   'electron-to-chromium': [ '1.4.653' ],
+83 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+83 silly audit   escalade: [ '3.1.1' ],
+83 silly audit   'fast-glob': [ '3.3.2' ],
+83 silly audit   fastq: [ '1.17.0' ],
+83 silly audit   'fill-range': [ '7.0.1' ],
+83 silly audit   'foreground-child': [ '3.1.1' ],
+83 silly audit   'fraction.js': [ '4.3.7' ],
+83 silly audit   fsevents: [ '2.3.3' ],
+83 silly audit   'function-bind': [ '1.1.2' ],
+83 silly audit   glob: [ '10.3.10' ],
+83 silly audit   'graceful-fs': [ '4.2.11' ],
+83 silly audit   hasown: [ '2.0.0' ],
+83 silly audit   'is-binary-path': [ '2.1.0' ],
+83 silly audit   'is-core-module': [ '2.13.1' ],
+83 silly audit   'is-extglob': [ '2.1.1' ],
+83 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+83 silly audit   'is-glob': [ '4.0.3' ],
+83 silly audit   'is-number': [ '7.0.0' ],
+83 silly audit   isexe: [ '2.0.0' ],
+83 silly audit   jackspeak: [ '2.3.6' ],
+83 silly audit   jiti: [ '1.21.0' ],
+83 silly audit   'js-tokens': [ '4.0.0' ],
+83 silly audit   lilconfig: [ '2.1.0', '3.0.0' ],
+83 silly audit   'lines-and-columns': [ '1.2.4' ],
+83 silly audit   'loose-envify': [ '1.4.0' ],
+83 silly audit   'lru-cache': [ '10.2.0' ],
+83 silly audit   merge2: [ '1.4.1' ],
+83 silly audit   micromatch: [ '4.0.5' ],
+83 silly audit   minimatch: [ '9.0.3' ],
+83 silly audit   minipass: [ '7.0.4' ],
+83 silly audit   mz: [ '2.7.0' ],
+83 silly audit   nanoid: [ '3.3.7' ],
+83 silly audit   next: [ '14.1.0' ],
+83 silly audit   postcss: [ '8.4.31', '8.4.33' ],
+83 silly audit   'node-releases': [ '2.0.14' ],
+83 silly audit   'normalize-path': [ '3.0.0' ],
+83 silly audit   'normalize-range': [ '0.1.2' ],
+83 silly audit   'object-assign': [ '4.1.1' ],
+83 silly audit   'object-hash': [ '3.0.0' ],
+83 silly audit   'path-key': [ '3.1.1' ],
+83 silly audit   'path-parse': [ '1.0.7' ],
+83 silly audit   'path-scurry': [ '1.10.1' ],
+83 silly audit   picocolors: [ '1.0.0' ],
+83 silly audit   picomatch: [ '2.3.1' ],
+83 silly audit   pify: [ '2.3.0' ],
+83 silly audit   pirates: [ '4.0.6' ],
+83 silly audit   'postcss-import': [ '15.1.0' ],
+83 silly audit   'postcss-js': [ '4.0.1' ],
+83 silly audit   'postcss-load-config': [ '4.0.2' ],
+83 silly audit   'postcss-nested': [ '6.0.1' ],
+83 silly audit   'postcss-selector-parser': [ '6.0.15' ],
+83 silly audit   'postcss-value-parser': [ '4.2.0' ],
+83 silly audit   'queue-microtask': [ '1.2.3' ],
+83 silly audit   react: [ '18.2.0' ],
+83 silly audit   'react-dom': [ '18.2.0' ],
+83 silly audit   'read-cache': [ '1.0.0' ],
+83 silly audit   readdirp: [ '3.6.0' ],
+83 silly audit   resolve: [ '1.22.8' ],
+83 silly audit   reusify: [ '1.0.4' ],
+83 silly audit   'run-parallel': [ '1.2.0' ],
+83 silly audit   scheduler: [ '0.23.0' ],
+83 silly audit   'shebang-command': [ '2.0.0' ],
+83 silly audit   'shebang-regex': [ '3.0.0' ],
+83 silly audit   'signal-exit': [ '4.1.0' ],
+83 silly audit   'source-map-js': [ '1.0.2' ],
+83 silly audit   streamsearch: [ '1.1.0' ],
+83 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+83 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+83 silly audit   'styled-jsx': [ '5.1.1' ],
+83 silly audit   sucrase: [ '3.35.0' ],
+83 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+83 silly audit   tailwindcss: [ '3.4.1' ],
+83 silly audit   thenify: [ '3.3.1' ],
+83 silly audit   'thenify-all': [ '1.6.0' ],
+83 silly audit   'to-regex-range': [ '5.0.1' ],
+83 silly audit   'ts-interface-checker': [ '0.1.13' ],
+83 silly audit   tslib: [ '2.6.2', '2.4.0' ],
+83 silly audit   'update-browserslist-db': [ '1.0.13' ],
+83 silly audit   'util-deprecate': [ '1.0.2' ],
+83 silly audit   which: [ '2.0.2' ],
+83 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+83 silly audit   yaml: [ '2.3.4' ],
+83 silly audit   ethers: [ '6.10.0' ],
+83 silly audit   '@adraffy/ens-normalize': [ '1.10.0' ],
+83 silly audit   '@noble/curves': [ '1.2.0' ],
+83 silly audit   '@noble/hashes': [ '1.3.2' ],
+83 silly audit   '@types/node': [ '18.15.13' ],
+83 silly audit   'aes-js': [ '4.0.0-beta.5' ],
+83 silly audit   ws: [ '8.5.0' ]
+83 silly audit }
+84 verbose reify failed optional dependency C:\Users\roko\Desktop\Arena\arena\node_modules\fsevents
+85 silly reify mark deleted [ 'C:\\Users\\roko\\Desktop\\Arena\\arena\\node_modules\\fsevents' ]
+86 verbose reify failed optional dependency C:\Users\roko\Desktop\Arena\arena\node_modules\@next\swc-win32-ia32-msvc
+87 silly reify mark deleted [
+87 silly reify   'C:\\Users\\roko\\Desktop\\Arena\\arena\\node_modules\\@next\\swc-win32-ia32-msvc'
+87 silly reify ]
+88 verbose reify failed optional dependency C:\Users\roko\Desktop\Arena\arena\node_modules\@next\swc-win32-arm64-msvc
+89 silly reify mark deleted [
+89 silly reify   'C:\\Users\\roko\\Desktop\\Arena\\arena\\node_modules\\@next\\swc-win32-arm64-msvc'
+89 silly reify ]
+90 verbose reify failed optional dependency C:\Users\roko\Desktop\Arena\arena\node_modules\@next\swc-linux-x64-musl
+91 silly reify mark deleted [
+91 silly reify   'C:\\Users\\roko\\Desktop\\Arena\\arena\\node_modules\\@next\\swc-linux-x64-musl'
+91 silly reify ]
+92 verbose reify failed optional dependency C:\Users\roko\Desktop\Arena\arena\node_modules\@next\swc-linux-x64-gnu
+93 silly reify mark deleted [
+93 silly reify   'C:\\Users\\roko\\Desktop\\Arena\\arena\\node_modules\\@next\\swc-linux-x64-gnu'
+93 silly reify ]
+94 verbose reify failed optional dependency C:\Users\roko\Desktop\Arena\arena\node_modules\@next\swc-linux-arm64-musl
+95 silly reify mark deleted [
+95 silly reify   'C:\\Users\\roko\\Desktop\\Arena\\arena\\node_modules\\@next\\swc-linux-arm64-musl'
+95 silly reify ]
+96 verbose reify failed optional dependency C:\Users\roko\Desktop\Arena\arena\node_modules\@next\swc-linux-arm64-gnu
+97 silly reify mark deleted [
+97 silly reify   'C:\\Users\\roko\\Desktop\\Arena\\arena\\node_modules\\@next\\swc-linux-arm64-gnu'
+97 silly reify ]
+98 verbose reify failed optional dependency C:\Users\roko\Desktop\Arena\arena\node_modules\@next\swc-darwin-x64
+99 silly reify mark deleted [
+99 silly reify   'C:\\Users\\roko\\Desktop\\Arena\\arena\\node_modules\\@next\\swc-darwin-x64'
+99 silly reify ]
+100 verbose reify failed optional dependency C:\Users\roko\Desktop\Arena\arena\node_modules\@next\swc-darwin-arm64
+101 silly reify mark deleted [
+101 silly reify   'C:\\Users\\roko\\Desktop\\Arena\\arena\\node_modules\\@next\\swc-darwin-arm64'
+101 silly reify ]
+102 timing reifyNode:node_modules/fsevents Completed in 8ms
+103 timing reifyNode:node_modules/@next/swc-win32-ia32-msvc Completed in 7ms
+104 timing reifyNode:node_modules/@next/swc-win32-arm64-msvc Completed in 8ms
+105 timing reifyNode:node_modules/@next/swc-linux-x64-musl Completed in 8ms
+106 timing reifyNode:node_modules/@next/swc-linux-x64-gnu Completed in 8ms
+107 timing reifyNode:node_modules/@next/swc-linux-arm64-musl Completed in 7ms
+108 timing reifyNode:node_modules/@next/swc-linux-arm64-gnu Completed in 7ms
+109 timing reifyNode:node_modules/@next/swc-darwin-x64 Completed in 7ms
+110 timing reifyNode:node_modules/@next/swc-darwin-arm64 Completed in 7ms
+111 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.5.0.tgz. Extracting by manifest.
+112 silly tarball no local data for aes-js@https://registry.npmjs.org/aes-js/-/aes-js-4.0.0-beta.5.tgz. Extracting by manifest.
+113 silly tarball no local data for @noble/hashes@https://registry.npmjs.org/@noble/hashes/-/hashes-1.3.2.tgz. Extracting by manifest.
+114 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-18.15.13.tgz. Extracting by manifest.
+115 silly tarball no local data for @adraffy/ens-normalize@https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.10.0.tgz. Extracting by manifest.
+116 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz. Extracting by manifest.
+117 silly tarball no local data for ethers@https://registry.npmjs.org/ethers/-/ethers-6.10.0.tgz. Extracting by manifest.
+118 silly tarball no local data for @noble/curves@https://registry.npmjs.org/@noble/curves/-/curves-1.2.0.tgz. Extracting by manifest.
+119 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.5.0.tgz 126ms (cache miss)
+120 timing reifyNode:node_modules/ws Completed in 148ms
+121 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 240ms
+122 timing auditReport:getReport Completed in 243ms
+123 silly audit report {}
+124 timing auditReport:init Completed in 1ms
+125 timing reify:audit Completed in 245ms
+126 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz 285ms (cache miss)
+127 timing reifyNode:node_modules/ethers/node_modules/tslib Completed in 309ms
+128 http fetch GET 200 https://registry.npmjs.org/aes-js/-/aes-js-4.0.0-beta.5.tgz 950ms (cache miss)
+129 timing reifyNode:node_modules/aes-js Completed in 974ms
+130 http fetch GET 200 https://registry.npmjs.org/@noble/hashes/-/hashes-1.3.2.tgz 1084ms (cache miss)
+131 timing reifyNode:node_modules/@noble/hashes Completed in 1109ms
+132 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-18.15.13.tgz 1130ms (cache miss)
+133 timing reifyNode:node_modules/@types/node Completed in 1154ms
+134 http fetch GET 200 https://registry.npmjs.org/@noble/curves/-/curves-1.2.0.tgz 1380ms (cache miss)
+135 timing reifyNode:node_modules/@noble/curves Completed in 1406ms
+136 http fetch GET 200 https://registry.npmjs.org/@adraffy/ens-normalize/-/ens-normalize-1.10.0.tgz 1452ms (cache miss)
+137 timing reifyNode:node_modules/@adraffy/ens-normalize Completed in 1477ms
+138 http fetch GET 200 https://registry.npmjs.org/ethers/-/ethers-6.10.0.tgz 4895ms (cache miss)
+139 timing reifyNode:node_modules/ethers Completed in 4921ms
+140 timing reify:unpack Completed in 4923ms
+141 timing reify:unretire Completed in 0ms
+142 timing build:queue Completed in 1ms
+143 timing build:deps Completed in 1ms
+144 timing build Completed in 2ms
+145 timing reify:build Completed in 3ms
+146 timing reify:trash Completed in 2ms
+147 timing reify:save Completed in 62ms
+148 timing reify Completed in 8389ms
+149 silly ADD node_modules/ws
+150 silly ADD node_modules/aes-js
+151 silly ADD node_modules/@types/node
+152 silly ADD node_modules/@noble/hashes
+153 silly ADD node_modules/@noble/curves
+154 silly ADD node_modules/@adraffy/ens-normalize
+155 silly ADD node_modules/ethers
+156 silly ADD node_modules/ethers/node_modules/tslib
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 timing command:install Completed in 8413ms
+167 verbose exit 0
+168 timing npm Completed in 8884ms
+169 info ok

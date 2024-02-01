@@ -1,0 +1,170 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\roko\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.9.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\roko\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:C:\Users\roko\.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:C:\Users\roko\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 12ms
+16 timing npm:load:configload Completed in 12ms
+17 timing config:load:flatten Completed in 2ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install npm@10.4.0
+21 verbose argv "install" "--global" "npm@10.4.0"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 0ms
+24 verbose logfile logs-max:10 dir:C:\Users\roko\Desktop\Arena\npm-cache\_logs\2024-02-01T15_21_30_393Z-
+25 verbose logfile C:\Users\roko\Desktop\Arena\npm-cache\_logs\2024-02-01T15_21_30_393Z-debug-0.log
+26 timing npm:load:logFile Completed in 11ms
+27 timing npm:load:timers Completed in 1ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 55ms
+30 timing config:load:flatten Completed in 2ms
+31 silly logfile done cleaning log files
+32 http fetch GET 200 https://registry.npmjs.org/npm 24ms (cache hit)
+33 timing arborist:ctor Completed in 0ms
+34 timing idealTree:init Completed in 5ms
+35 timing idealTree:userRequests Completed in 1ms
+36 silly idealTree buildDeps
+37 silly fetch manifest npm@10.4.0
+38 http fetch GET 200 https://registry.npmjs.org/npm 10ms (cache hit)
+39 silly placeDep ROOT npm@10.4.0 OK for:  want: 10.4.0
+40 timing idealTree:#root Completed in 31ms
+41 timing idealTree:node_modules/npm Completed in 0ms
+42 timing idealTree:buildDeps Completed in 32ms
+43 timing idealTree:fixDepFlags Completed in 1ms
+44 timing idealTree Completed in 40ms
+45 timing reify:loadTrees Completed in 138ms
+46 timing reify:diffTrees Completed in 4ms
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\node_modules\\npm',
+47 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npm',
+47 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npm.cmd',
+47 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npm.ps1',
+47 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npx',
+47 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npx.cmd',
+47 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npx.ps1'
+47 silly reify ]
+48 silly reify moves {
+48 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\node_modules\\npm': 'C:\\Users\\roko\\AppData\\Roaming\\npm\\node_modules\\.npm-UyLnCMyH',
+48 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npm': 'C:\\Users\\roko\\AppData\\Roaming\\npm\\.npm-EcYF4TpP',
+48 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npm.cmd': 'C:\\Users\\roko\\AppData\\Roaming\\npm\\.npm.cmd-T678ezYR',
+48 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npm.ps1': 'C:\\Users\\roko\\AppData\\Roaming\\npm\\.npm.ps1-07OAaLZh',
+48 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npx': 'C:\\Users\\roko\\AppData\\Roaming\\npm\\.npx-TK1UFsjG',
+48 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npx.cmd': 'C:\\Users\\roko\\AppData\\Roaming\\npm\\.npx.cmd-l0IC3Zjl',
+48 silly reify   'C:\\Users\\roko\\AppData\\Roaming\\npm\\npx.ps1': 'C:\\Users\\roko\\AppData\\Roaming\\npm\\.npx.ps1-EDi7lT7i'
+48 silly reify }
+49 timing reify:retireShallow Completed in 9ms
+50 timing reify:createSparse Completed in 1ms
+51 silly tarball no local data for npm@https://registry.npmjs.org/npm/-/npm-10.4.0.tgz. Extracting by manifest.
+52 http fetch GET 200 https://registry.npmjs.org/npm/-/npm-10.4.0.tgz 3153ms (cache miss)
+53 timing reifyNode:node_modules/npm Completed in 3160ms
+54 timing arborist:ctor Completed in 1ms
+55 timing reify:diffTrees Completed in 6ms
+56 timing reify:loadBundles Completed in 3318ms
+57 timing reify:unpack Completed in 0ms
+58 timing reify:unretire Completed in 1ms
+59 timing build:queue Completed in 12ms
+60 timing build:link:node_modules/npm/node_modules/@npmcli/arborist Completed in 21ms
+61 timing build:link:node_modules/npm Completed in 22ms
+62 timing build:link:node_modules/npm/node_modules/cssesc Completed in 21ms
+63 timing build:link:node_modules/npm/node_modules/color-support Completed in 21ms
+64 timing build:link:node_modules/npm/node_modules/cross-spawn/node_modules/which Completed in 20ms
+65 timing build:link:node_modules/npm/node_modules/@npmcli/installed-package-contents Completed in 22ms
+66 timing build:link:node_modules/npm/node_modules/mkdirp Completed in 21ms
+67 timing build:link:node_modules/npm/node_modules/node-gyp Completed in 21ms
+68 timing build:link:node_modules/npm/node_modules/glob Completed in 21ms
+69 timing build:link:node_modules/npm/node_modules/pacote Completed in 21ms
+70 timing build:link:node_modules/npm/node_modules/qrcode-terminal Completed in 20ms
+71 timing build:link:node_modules/npm/node_modules/nopt Completed in 21ms
+72 timing build:link:node_modules/npm/node_modules/semver Completed in 20ms
+73 timing build:link:node_modules/npm/node_modules/which Completed in 20ms
+74 timing build:link Completed in 23ms
+75 timing build:deps Completed in 35ms
+76 timing build Completed in 36ms
+77 timing reify:build Completed in 36ms
+78 timing reify:trash Completed in 262ms
+79 timing reify Completed in 3773ms
+80 silly CHANGE node_modules/npm
+81 silly REMOVE node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/strip-ansi
+82 silly REMOVE node_modules/npm/node_modules/wrap-ansi-cjs/node_modules/ansi-regex
+83 silly CHANGE node_modules/npm/node_modules/@sigstore/sign
+84 silly CHANGE node_modules/npm/node_modules/@sigstore/tuf
+85 silly CHANGE node_modules/npm/node_modules/@sigstore/bundle
+86 silly CHANGE node_modules/npm/node_modules/@npmcli/run-script
+87 silly CHANGE node_modules/npm/node_modules/@npmcli/promise-spawn
+88 silly CHANGE node_modules/npm/node_modules/@npmcli/installed-package-contents
+89 silly CHANGE node_modules/npm/node_modules/@npmcli/config
+90 silly CHANGE node_modules/npm/node_modules/@npmcli/git
+91 silly CHANGE node_modules/npm/node_modules/@npmcli/arborist
+92 silly REMOVE node_modules/npm/node_modules/strip-ansi-cjs/node_modules/ansi-regex
+93 silly CHANGE node_modules/npm/node_modules/which
+94 silly REMOVE node_modules/npm/node_modules/string-width-cjs/node_modules/strip-ansi
+95 silly REMOVE node_modules/npm/node_modules/string-width-cjs/node_modules/ansi-regex
+96 silly CHANGE node_modules/npm/node_modules/strip-ansi
+97 silly REMOVE node_modules/npm/node_modules/string_decoder
+98 silly CHANGE node_modules/npm/node_modules/qrcode-terminal
+99 silly CHANGE node_modules/npm/node_modules/tuf-js
+100 silly REMOVE node_modules/npm/node_modules/safe-buffer
+101 silly REMOVE node_modules/npm/node_modules/string-width/node_modules/ansi-regex
+102 silly REMOVE node_modules/npm/node_modules/string-width/node_modules/strip-ansi
+103 silly CHANGE node_modules/npm/node_modules/sigstore
+104 silly CHANGE node_modules/npm/node_modules/semver
+105 silly REMOVE node_modules/npm/node_modules/readable-stream
+106 silly CHANGE node_modules/npm/node_modules/promise-call-limit
+107 silly REMOVE node_modules/npm/node_modules/process
+108 silly CHANGE node_modules/npm/node_modules/libnpmversion
+109 silly CHANGE node_modules/npm/node_modules/postcss-selector-parser
+110 silly CHANGE node_modules/npm/node_modules/pacote
+111 silly CHANGE node_modules/npm/node_modules/npm-packlist
+112 silly CHANGE node_modules/npm/node_modules/nopt
+113 silly CHANGE node_modules/npm/node_modules/node-gyp
+114 silly CHANGE node_modules/npm/node_modules/mkdirp
+115 silly CHANGE node_modules/npm/node_modules/libnpmsearch
+116 silly CHANGE node_modules/npm/node_modules/minipass-collect
+117 silly REMOVE node_modules/npm/node_modules/minipass-collect/node_modules/minipass
+118 silly CHANGE node_modules/npm/node_modules/libnpmpublish
+119 silly CHANGE node_modules/npm/node_modules/libnpmteam
+120 silly CHANGE node_modules/npm/node_modules/libnpmpack
+121 silly CHANGE node_modules/npm/node_modules/libnpmorg
+122 silly CHANGE node_modules/npm/node_modules/lru-cache
+123 silly CHANGE node_modules/npm/node_modules/libnpmdiff
+124 silly CHANGE node_modules/npm/node_modules/libnpmaccess
+125 silly CHANGE node_modules/npm/node_modules/libnpmhook
+126 silly CHANGE node_modules/npm/node_modules/libnpmfund
+127 silly CHANGE node_modules/npm/node_modules/libnpmexec
+128 silly CHANGE node_modules/npm/node_modules/json-parse-even-better-errors
+129 silly REMOVE node_modules/npm/node_modules/ieee754
+130 silly CHANGE node_modules/npm/node_modules/ignore-walk
+131 silly REMOVE node_modules/npm/node_modules/events
+132 silly CHANGE node_modules/npm/node_modules/cross-spawn/node_modules/which
+133 silly CHANGE node_modules/npm/node_modules/glob
+134 silly REMOVE node_modules/npm/node_modules/event-target-shim
+135 silly REMOVE node_modules/npm/node_modules/gauge/node_modules/ansi-regex
+136 silly REMOVE node_modules/npm/node_modules/gauge/node_modules/strip-ansi
+137 silly REMOVE node_modules/npm/node_modules/columnify/node_modules/strip-ansi
+138 silly REMOVE node_modules/npm/node_modules/columnify/node_modules/ansi-regex
+139 silly REMOVE node_modules/npm/node_modules/cli-columns/node_modules/strip-ansi
+140 silly REMOVE node_modules/npm/node_modules/cli-columns/node_modules/ansi-regex
+141 silly REMOVE node_modules/npm/node_modules/delegates
+142 silly REMOVE node_modules/npm/node_modules/base64-js
+143 silly CHANGE node_modules/npm/node_modules/cssesc
+144 silly CHANGE node_modules/npm/node_modules/color-support
+145 silly REMOVE node_modules/npm/node_modules/buffer
+146 silly CHANGE node_modules/npm/node_modules/ansi-regex
+147 silly REMOVE node_modules/npm/node_modules/abort-controller
+148 silly CHANGE node_modules/npm/node_modules/cacache
+149 silly CHANGE node_modules/npm/node_modules/are-we-there-yet
+150 timing command:install Completed in 3835ms
+151 verbose exit 0
+152 timing npm Completed in 4269ms
+153 info ok
