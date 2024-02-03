@@ -7,7 +7,7 @@ import { BrowserProvider, parseUnits } from "ethers";
 import abi from "@/abi";
 import execute from "../Web3Functions/ApiRequest";
 import ConnectMetamask from "../Web3Functions/ConnectMetamask";
-
+import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="absolute w-full h-20 justify-end items-center mt-6">
@@ -17,12 +17,13 @@ const Navbar = () => {
           <h1 className=" flex cursor-pointer  ">About us</h1>
           <h1 className=" flex cursor-pointer  ">contact</h1>
         </div>
-
-        <img
-          src="/emblem.png"
-          alt=""
-          className="h-12 w-12 invert absolute left-6 justify-center items-center my-auto flex "
-        />
+        <Link href="/">
+          <img
+            src="/emblem.png"
+            alt=""
+            className="h-12 w-12 invert absolute left-6 justify-center items-center my-auto flex "
+          />
+        </Link>
         <div className=" justify-center items-center my-auto flex absolute right-6 ">
           <ConnectMetamask />
         </div>
